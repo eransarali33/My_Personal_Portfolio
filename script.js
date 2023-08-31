@@ -46,7 +46,7 @@ function SendMail() {
   submitBtn.disabled = true;
 
   emailjs
-    .send("service_38lqkkp", "template_jcfr3la", params)
+    .send("service_38lqkkp", "template_cobaupe", params)
     .then(function (res) {
       console.log("Message Sent" + res.status);
       alert("Message Sent" + res.status);
